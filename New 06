@@ -1,0 +1,11 @@
+create table Mail(
+manager_id number(5),
+manager_email varchar2(20)
+)
+
+ALTER TABLE Mail
+ADD CONSTRAINT mail_id_pk PRIMARY KEY(manager_id,manager_email)
+
+ALTER TABLE Mail
+ADD CONSTRAINT mail_id_fk FOREIGN KEY (manager_id)
+REFERENCES manager(manager_id)
