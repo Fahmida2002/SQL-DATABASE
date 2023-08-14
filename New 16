@@ -1,0 +1,5 @@
+insert into Mail values(301,'Tushar@gmail.com')
+insert into Mail values(302,'Ashiqul@gmail.com')
+insert into Mail values(303,'Deep@gmail.com')
+insert into Mail values(304,'Mishkat@gmail.com')
+insert into Mail values(305,'Rizwan@gmail.com')
