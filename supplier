@@ -1,0 +1,10 @@
+insert all
+into supplier(Supplier_name,product_id) values ('JOHN','P_11')
+into supplier(Supplier_name,product_id) values ('TAMANNA','P_12')
+into supplier(Supplier_name,product_id) values ('IFTEKHAR','P_13')
+into supplier(Supplier_name,product_id) values ('CHISTI','P_14')
+into supplier(Supplier_name,product_id) values ('JAFAR','P_15')
+select 1 from dual
+
+
+select * from supplier
