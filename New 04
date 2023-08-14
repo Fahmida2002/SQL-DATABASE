@@ -1,0 +1,17 @@
+create table Branch(
+branch_id number(5),
+branch_name varchar2(20),
+br_id number(5),
+manager_id number(5)
+)
+
+ALTER TABLE Branch
+ADD CONSTRAINT branch_id_pk PRIMARY KEY(branch_id)
+
+ALTER TABLE Branch
+ADD CONSTRAINT br_id_fk FOREIGN KEY (br_id)
+REFERENCES Branch_address(br_id)
+
+ALTER TABLE Branch
+ADD CONSTRAINT br2_id_fk FOREIGN KEY (manager_id)
+REFERENCES manager(manager_id) 
