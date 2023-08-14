@@ -1,0 +1,7 @@
+create table supplier(
+product_id number(5),
+supplier_name varchar2(20)
+)
+
+ALTER TABLE supplier
+ADD CONSTRAINT sup_id_pk PRIMARY KEY(product_id)
