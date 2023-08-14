@@ -1,0 +1,17 @@
+INSERT ALL
+INTO employer(Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address)
+VALUES ('FAHIM','E_11','12-JAN-81','MALE',21000,'KURIL')
+INTO employer(Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address)
+VALUES ('RAHIM','E_12','17-FEB-89','MALE',25000,'FARMGATE')
+INTO employer (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address)
+VALUES ('ISRAT','E_13','21-MAY-91','FEMALE',19000,'BASHUNDHARA')
+INTO employer (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address)
+VALUES ('KAWSAR','E_14','06-DEC-03','MALE',25000,'GULSHAN')
+INTO employer (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address)
+VALUES ('SHAHRIAR','E_15','06-AUG-99','MALE',23000,'BASHUNDHARA')
+SELECT 1 FROM DUAL
+
+select * from employer
+
+
+ 
