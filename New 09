@@ -1,0 +1,6 @@
+create table Users(
+user_id number(5),
+user_name varchar2(20)
+)
+ALTER TABLE Users
+ADD CONSTRAINT user_id_pk PRIMARY KEY(user_id)
