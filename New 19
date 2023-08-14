@@ -1,0 +1,6 @@
+
+insert into Users values(801,'Leonardo')
+insert into Users values(802,'Hanks')
+insert into Users values(803,'Smith')
+insert into Users values(804,'Stark')
+insert into Users values(805,'Jackman')
