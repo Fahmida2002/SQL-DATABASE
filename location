@@ -1,0 +1,8 @@
+insert all
+into location(branch_location,branch_country) values('DHAKA','BANGLADESH')
+into location(branch_location,branch_country) values('DHAKA','BANGLADESH')
+into location(branch_location,branch_country) values('CHITTAGONG','BANGLADESH')
+into location(branch_location,branch_country) values('CHITTAGONG','BANGLADESH')
+into location(branch_location,branch_country) values('CHITTAGONG','BANGLADESH')
+select 1 from dual
+select * from location
