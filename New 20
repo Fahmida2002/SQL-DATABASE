@@ -1,0 +1,47 @@
+insert into Employee_user values(901,401,801)
+insert into Employee_user values(902,402,802)
+insert into Employee_user values(903,403,803)
+insert into Employee_user values(904,404,804)
+insert into Employee_user values(905,405,805)
+
+
+
+
+SELECT * FROM Employee_user
+
+Select * 
+from all_constraints 
+where table_name='EMPLOYEE_USER'
+
+select *
+from user_sequences
+
+
+///Important///
+1.	Desc supplier
+2.	Desc Branch_address
+3.	Desc Product_branch
+4.	Desc Branch
+5.	Desc Manager
+6.	Desc Mail
+7.	Desc Employee
+8.	Desc Employee_addr
+9.	Desc Users
+10.	 Desc Employee_user
+
+11.	 Select * from supplier
+12.	 Select * from branch_address
+13.	 Select * from Product_branch 
+14.	 Select * from Branch 
+15.	 Select * from Manager 
+16.	 Select * from Mail
+17.	 Select * from Employee
+18.	 Select * from Employee_addr
+19.	 Select * from Users
+20.	 Select * from Employee_user
+
+21.	 Select * from all_constraints where table_name='MANAGER'
+22.	 Select * from all_constraints where table_name='EMPLOYEE'
+
+23.	 Select * from user_sequences
+
