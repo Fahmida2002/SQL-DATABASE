@@ -1,0 +1,12 @@
+create table Manager(
+manager_id number(5),
+manager_name varchar2(20),
+start_date date
+)
+
+ALTER TABLE MANAGER modify (manager_name not null)
+
+
+ALTER TABLE Manager
+ADD CONSTRAINT manager_id_pk PRIMARY KEY(manager_id)
+
