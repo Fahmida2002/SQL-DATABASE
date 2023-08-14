@@ -1,0 +1,18 @@
+
+create table Product_branch(
+pb_id number(5),
+product_id number(5),
+branch_id number(5)
+)
+
+ALTER TABLE Product_branch
+ADD CONSTRAINT pb_id_pk PRIMARY KEY(pb_id)
+
+ALTER TABLE Product_branch
+ADD CONSTRAINT pb_id_fk FOREIGN KEY (product_id)
+REFERENCES Supplier(product_id)
+
+ALTER TABLE Product_branch
+ADD CONSTRAINT pb2_id_fk FOREIGN KEY (branch_id)
+REFERENCES Branch(branch_id)
+
