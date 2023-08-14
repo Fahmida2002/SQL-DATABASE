@@ -1,0 +1,9 @@
+INSERT ALL
+INTO collaborate (Employee_id,User_id) VALUES ('E_11','U_11')
+INTO collaborate (Employee_id,User_id) VALUES ('E_12','U_12')
+INTO collaborate (Employee_id,User_id) VALUES ('E_13','U_13')
+INTO collaborate (Employee_id,User_id) VALUES ('E_14','U_14')
+INTO collaborate (Employee_id,User_id) VALUES ('E_15','U_15')
+SELECT 1 FROM DUAL
+
+select *from collaborate
