@@ -1,0 +1,6 @@
+
+insert into Employee_address values(401,'Dhaka')
+insert into Employee_address values(402,'Las Vegas')
+insert into Employee_address values(403, 'London')
+insert into Employee_address values(404,'Paris')
+insert into Employee_address values(405,'Berlin')
