@@ -1,0 +1,5 @@
+insert into Product_branch values(501,101,601)
+insert into Product_branch values(502,102,602)
+insert into Product_branch values(503,103,603)
+insert into Product_branch values(504,104,604)
+insert into Product_branch values(505,105,605)
