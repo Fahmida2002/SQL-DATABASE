@@ -1,0 +1,14 @@
+create sequence sup_seq
+start with 101
+increment by 1
+maxvalue 110
+nocycle
+nocache
+
+
+insert into supplier(product_id, supplier_name) values(sup_seq.nextval,'Octa')
+insert into supplier(product_id, supplier_name) values(sup_seq.nextval,'Adidas')
+insert into supplier(product_id, supplier_name) values(sup_seq.nextval,'Nike')
+insert into supplier(product_id, supplier_name) values(sup_seq.nextval,'Puma')
+insert into supplier(product_id, supplier_name) values(sup_seq.nextval,'Bata')
+
