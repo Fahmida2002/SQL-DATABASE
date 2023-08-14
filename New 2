@@ -1,0 +1,8 @@
+create table Branch_address(
+br_id number(5),
+branch_country varchar2(20),
+branch_location varchar2(20)
+)
+
+ALTER TABLE Branch_address
+ADD CONSTRAINT br_id_pk PRIMARY KEY(br_id)
