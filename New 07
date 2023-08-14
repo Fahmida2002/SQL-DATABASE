@@ -1,0 +1,19 @@
+create table Employee(
+employee_id number(5),
+employee_name varchar2(20),
+employee_birth_date date,
+employee_gender varchar2(3),
+employee_salary number(5),
+branch_id number(5)
+
+)
+
+ALTER TABLE Employee
+ADD CONSTRAINT employee_id_pk PRIMARY KEY(employee_id)
+
+ALTER TABLE Employee
+ADD CONSTRAINT emp_id_fk FOREIGN KEY (branch_id)
+REFERENCES Branch(branch_id)
+
+ALTER TABLE Employee ADD CONSTRAINT ech check(employee_gender='M' or employee_gender='F')
+
