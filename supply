@@ -1,0 +1,9 @@
+insert all
+into supply(Product_id,branch_id) values ('P_11','B_11')
+into supply(Product_id,branch_id) values ('P_12','B_12')
+into supply(Product_id,branch_id) values ('P_13','B_13')
+into supply(Product_id,branch_id) values ('P_14','B_14')
+into supply(Product_id,branch_id) values ('P_15','B_15')
+select 1 from dual
+
+select * from supply
