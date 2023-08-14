@@ -1,0 +1,9 @@
+INSERT ALL
+INTO manage (Branch_id,Manager_id) values ('B_11','M_11')
+INTO manage (Branch_id,Manager_id) values ('B_12','M_12')
+INTO manage (Branch_id,Manager_id) values ('B_13','M_13')
+INTO manage (Branch_id,Manager_id) values ('B_14','M_14')
+INTO manage (Branch_id,Manager_id) values ('B_15','M_15')
+SELECT 1 FROM DUAL
+
+select * from manage
