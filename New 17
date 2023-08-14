@@ -1,0 +1,5 @@
+insert into Employee values(401,'Sakib',to_date('17-01-2000','dd-mm-yyyy'),'M',10000, 601)
+insert into Employee values(402,'Rahim',to_date('07-02-2001','dd-mm-yyyy'),'M',15000, 602)
+insert into Employee values(403,'Riha',to_date('10-05-2003','dd-mm-yyyy'),'F',12000, 603)
+insert into Employee values(404,'Anika',to_date('03-05-1999','dd-mm-yyyy'),'F',10000, 604)
+insert into Employee values(405,'Neon',to_date('04-07-2000','dd-mm-yyyy'),'F',10000, 605)
