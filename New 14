@@ -1,0 +1,5 @@
+insert into Branch values(601,'Dhaka branch',201,301)
+insert into Branch values(602,'Las Vegas branch',202,302)
+insert into Branch values(603,'London branch',203,303)
+insert into Branch values(604,'Paris branch',204,304)
+insert into Branch values(605,'Berlin branch',205,305)
