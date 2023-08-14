@@ -1,0 +1,13 @@
+insert all
+into shop_branch(branch_location,branch_id,branch_name) values ('DHAKA','B_11','BASHUNDHARA') 
+into shop_branch(branch_location,branch_id,branch_name) values ('DHAKA','B_12','TONGI')
+into shop_branch(branch_location,branch_id,branch_name) values ('CHITTAGONG','B_13','GEC')
+into shop_branch(branch_location,branch_id,branch_name) values ('CHITTAGONG','B_14','KAMALBAZAR')  
+into shop_branch(branch_location,branch_id,branch_name) values ('CHITTAGONG','B_15','ABASHIK')
+select 1 from dual
+
+select * from shop_branch
+
+select branch_location
+from shop_branch
+where branch_id='B_14'
