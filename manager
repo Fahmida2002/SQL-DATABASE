@@ -1,0 +1,9 @@
+insert all
+into manager(Manager_name,Manager_id,Start_date,Manager_email) values('SAJID','M_11','12-JAN-22','sajid11@gmail.com')
+into manager(Manager_name,Manager_id,Start_date,Manager_email) values('NISHAT','M_12','15-FEB-22','nishat12@gmail.com')
+into manager(Manager_name,Manager_id,Start_date,Manager_email) values('SADID','M_13','11-JUL-23','sadid13@gmail.com')
+into manager(Manager_name,Manager_id,Start_date,Manager_email) values('SHAHRIAR','M_14','21-DEC-21','shahriar14@gmail.com')
+into manager(Manager_name,Manager_id,Start_date,Manager_email) values('ISRAT','M_15','29-MAY-23','israt15@gmail.com')
+select 1 from dual
+
+select * from manager
