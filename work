@@ -1,0 +1,15 @@
+INSERT ALL
+INTO work (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address,Branch_id)
+VALUES ('FAHIM','E_11','12-JAN-81','MALE',21000,'KURIL','B_11')
+INTO work (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address,Branch_id)
+VALUES ('RAHIM','E_12','17-FEB-89','MALE',25000,'FARMGATE','B_12')
+INTO work (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address,Branch_id)
+VALUES ('ISRAT','E_13','21-MAY-91','FEMALE',19000,'BASHUNDHARA','B_13')
+INTO work (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address,Branch_id)
+VALUES ('KAWSAR','E_14','06-DEC-03','MALE',25000,'GULSHAN','B_14')
+INTO work (Employee_name,Employee_id,Employee_birth_date,Employee_gender,Employee_salary,Employee_address,Branch_id)
+VALUES ('SHAHRIAR','E_15','06-AUG-99','MALE',23000,'BASHUNDHARA','B_15')
+SELECT 1 FROM DUAL
+
+select * from work
+ 
