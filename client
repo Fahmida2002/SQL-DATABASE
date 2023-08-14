@@ -1,0 +1,9 @@
+INSERT ALL
+INTO client (User_name,User_id) VALUES ('FAHIM','U_11')
+INTO client (User_name,User_id) VALUES ('KARIM','U_12')
+INTO client (User_name,User_id) VALUES ('JOHN','U_13')
+INTO client (User_name,User_id) VALUES ('CHISTI','U_14')
+INTO client (User_name,User_id) VALUES ('IFTEKHAR','U_15')
+SELECT 1 FROM DUAL
+
+select *from client
