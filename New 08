@@ -1,0 +1,14 @@
+create table Employee_address(
+employee_id number(5),
+employee_address varchar2(20)
+)
+
+
+
+ALTER TABLE Employee_address
+ADD CONSTRAINT emp_add_id_pk PRIMARY KEY(employee_id,employee_address)
+
+ALTER TABLE Employee_address
+ADD CONSTRAINT emp_add_id_fk FOREIGN KEY (employee_id)
+REFERENCES Employee(employee_id)
+
