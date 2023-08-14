@@ -1,0 +1,5 @@
+insert into Manager values(301,'Mahmud Hossain Tushar', to_date('17-01-2021','dd-mm-yyyy'))
+insert into Manager values(302,'Ashiqul Islam', to_date('17-12-2020','dd-mm-yyyy'))
+insert into Manager values(303,'MD. Rifat Islam Deep', to_date('07-02-2021','dd-mm-yyyy'))
+insert into Manager values(304,'Foyjunnesa Mishkat', to_date('13-10-2019','dd-mm-yyyy'))
+insert into Manager values(305,'Mohammad Rizwan', to_date('14-11-2019','dd-mm-yyyy'))
