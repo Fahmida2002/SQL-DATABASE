@@ -1,0 +1,6 @@
+insert into Branch_address values(201,'Bangladesh','Dhaka')
+insert into Branch_address values(202,'USA','Las Vegas')
+insert into Branch_address values(203,'UK','London')
+insert into Branch_address values(204,'France','Paris')
+insert into Branch_address values(205,'Germany','Berlin')
+
